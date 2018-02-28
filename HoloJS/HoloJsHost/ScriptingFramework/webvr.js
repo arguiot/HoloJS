@@ -29,6 +29,10 @@
     this.submitFrame = function () {
         
     };
+
+    this.requestAnimationFrame = function (callback) {
+        window.requestAnimationFrame(callback);
+    };
 }
 
 function VRPose(viewLeft, viewRight) {
